@@ -6,6 +6,8 @@ const elX = document.querySelector('.x')
 const elY = document.querySelector('.y')
 const elImg1 = document.querySelector('.img-1')
 const elImg2 = document.querySelector('.img-2')
+const elH = document.querySelector('.h1')
+
 
 
 
@@ -23,11 +25,17 @@ elBtn.addEventListener('click', function () {
    elSlinder.classList.toggle('bgw');
    elY.classList.toggle('col');
    elSlinder.classList.toggle('boxx');
-   elImg1.classList.toggle('hidden');
-   elImg2.classList.toggle('hidden');
+   // elImg1.classList.toggle('hidden');
+   // elImg2.classList.toggle('hidden');
+   elImg1.classList.toggle( 'xaro');
+   elImg2.classList.toggle('xarotwo');
+   elImg1.classList.toggle('bro');
+   elImg2.classList.toggle('brox');
+   elH.classList.toggle('h')
 
-
+   
 })
+   
 
 
 

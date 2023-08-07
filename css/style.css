@@ -15,13 +15,14 @@
 
 .body {
     background-color: #2f2f2f;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding-top: 110px;
+    
     transition: background-color 1s ease;
+    overflow-x: hidden;
 }
-
+.btnb{
+    display: flex;
+    justify-content: space-between;
+}
 .btn {
     padding: 7px;
     width: 300px;
@@ -31,6 +32,8 @@
     box-shadow: inset 0px 0px 45px rgb(26, 26, 26);
     cursor: pointer;
     transition: background-color 0.5s ease;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .slinder {
@@ -83,8 +86,43 @@
     margin-bottom: 30px;
 
 }
+.lkd{
+    color: aqua;
+    text-shadow: 0px 0px 10px black;
+}
+.hero{
+    top: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #2f2f2f;
+    text-align: center;
+    margin-bottom: 50px;
+    box-shadow: 0px 0px 30px aqua;
+    padding:15px 0px 15px 0px;
+    text-shadow: 0px 0px 7px aqua;
+}
 
 .img-block {
     display: flex;
     justify-content: center;
+    margin-bottom: 30px;
+}
+.xaro{
+    transform: translateX(50%);
+  transition: all 2s ease;
+}
+.xarotwo {
+    transform: translateX(-1000%);
+  transition: all 2s ease;
+}
+.bro{
+    transform: translateX(1000%);
+        transition: all 2s ease;
+}
+.brox {
+    transform: translateX(-50%);
+    transition: all 2s ease;
+}
+.h{
+    color: rgb(3, 78, 110);
+    text-shadow: 0px 0px 20px rgb(10, 246, 246);
 }
